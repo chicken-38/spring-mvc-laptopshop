@@ -12,4 +12,9 @@ public class HelloController {
         return "Hello World from Spring Boot!";
     }
 
+    @GetMapping("/123")
+    public String getMethodName() {
+        return "123";
+    }
+
 }
